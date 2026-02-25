@@ -30,6 +30,7 @@
 	 flex-direction: column;
 	
  }
+
  h1,
  h2,
  h3,
@@ -133,10 +134,85 @@
 	 
  }
  
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-optical-sizing: auto;
+
+  /* Estilo de fundo e padding */
+  background-color: #1c1c1c; /* fundo escuro */
+  padding: 1em 2em;
+}
+
+/* Logo */
+.site-header .brand .site-logo {
+  height: 2em; /* ajuste conforme desejar */
+  vertical-align: middle;
+}
+
+/* Navbar links */
+.site-header .links {
+  display: flex;
+  gap: 1.5em; /* espaçamento entre links */
+  align-items: center;
+}
+
+.site-header .links a {
+  color: #f0f0f0; /* links claros */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.site-header .links a:hover {
+  color: #ffd700; /* destaque ao passar o mouse */
+}
+
+/* Margem geral do header */
+header {
+  margin: 0 0 2em;
+}
+/* Header fixo no topo, fundo escuro, largura total */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Ocupar toda a largura da tela */
+  width: 100%;
+  max-width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  background-color: #1c1c1c;
+  padding: 1em 2em;
+  box-sizing: border-box;
+}
+
+/* Mantém o conteúdo do header centralizado */
+.site-header .header-inner {
+  max-width: 65ch; /* mesma largura do main-content */
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+
+
 
  .links {
 	 display: flex;
 	 align-items: center;
+	  margin-left: auto;
 	 justify-content: space-between;
 	 font-size: 18px;
 	 font-weight: 500;
@@ -167,15 +243,18 @@
 	 opacity: 0.8;
  }
  
+.site-logo {
+    height: 2em; /* ajuste a altura como quiser */
+    vertical-align: middle;
+  }
  
 
  
  h1
  {
-	 font-family: "STIX Two Text", serif;
+	 
 	 font-optical-sizing: auto;
-	 font-style: italic;
-	 font-weight: 500;
+	 
  
  }
  
