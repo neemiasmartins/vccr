@@ -1,0 +1,51 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+import Section from '../components/Section.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<link rel="sitemap" href="/sitemap-index.xml" />
+
+
+
+
+	</head>
+	<body>
+	
+		<Header title={SITE_TITLE} />
+		<main style="margin: auto 0;">
+
+			
+			<p><h1 class="neemias">Neemias Martins</h1><a href="https://www.instagram.com/neemias.math"><img src="/img/neemias.jpg" style="width:120px;" class="profile_pic" alt="Photo Neemias"></a>
+			I am a professor at <a href="/blog/2025-08-04">Federal University of Viçosa</a>. I earned my Ph.D. in Mathematics from <a href="https://www.ime.unicamp.br/">Imecc</a> / Unicamp, under the supervision of <a href="https://www.ime.unicamp.br/~regisvarao/">Régis Varão</a> and <a href="https://www.researchgate.net/profile/Pouya-Mehdipour">Pouya Mehdipour</a>. <a href="/resume.pdf" class="morelink">See resume &#8250;</a> </p>
+
+			<p>
+				My research interests are Dynamical Systems, Ergodic Theory and Symbolic Dynamics. <a href = "/research" class="morelink">See papers &#8250;</a> </p>
+			<p>	
+			<p>
+				This summer (in Brazil), I'm teaching Measure and Integration, and Basic Mathematics. <a href = "/teaching" class="morelink">See all courses &#8250;</a> </p>
+			<p>
+				Next month, I will be teaching the mini-course Introduction to Ergodic Theory at <a href="https://sites.google.com/ufv.br/workshopdeverao2026">XVII Summer Workshop in Mathematics</a> at UFV. <a href = "/events" class="morelink">See all events &#8250;</a> </p>
+			<p></p>
+
+			<p>	My email is <a href="mailto:neemias.martins@ufv.br">neemias.martins@ufv.br</a>. If you want to talk about math or have questions, my door is always open in Room A-302 at DMA/CCE.</p>
+		<p style="margin-bottom:1.5cm;">
+		<!--<p><h3>Recent Posts</h3></p> -->
+		
+
+		
+
+			
+		
+
+		
+		</main>
+		<Footer />
+	</body>
+</html>
