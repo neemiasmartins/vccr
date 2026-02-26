@@ -201,7 +201,7 @@ body {
   margin: 0 auto;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -301,10 +301,12 @@ a svg:hover {
 	 opacity: 0.8;
  }
  
-.site-logo {
-    height: 2em; /* ajuste a altura como quiser */
-    vertical-align: middle;
-  }
+.site-header .brand .site-logo {
+  height: 2em;
+  width: auto;      /* mantém proporção */
+  max-width: 100%;  /* evita quebrar em telas pequenas */
+  display: block;
+}
  
 
  
