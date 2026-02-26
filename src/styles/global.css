@@ -431,10 +431,10 @@ a svg:hover {
 
   margin: 10px auto 0;   /* centraliza horizontalmente */
   max-width: 250px;       /* largura máxima do card */
-  background: #efefef;
+  background: #fffbf0; /*#f7e198;*/
   padding: 20px 60px;
   position: relative;
-  border: none;
+  border: 1px solid #545642;
   border-radius: 8px;
   font-style: italic;
   font-size:14px;
@@ -449,7 +449,7 @@ a svg:hover {
   position: absolute;
   font-size: 80px;
   line-height: 1;
-  color: #757f9a;
+  color: #161616;
   font-style: normal;
 }
 
