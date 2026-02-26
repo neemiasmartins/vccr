@@ -185,6 +185,14 @@ header {
   box-sizing: border-box;
 }
 
+body {
+  padding-top: 80px;
+}
+
+.spacer {
+  height: 3em;
+}
+
 /* Mantém o conteúdo do header centralizado */
 .site-header .header-inner {
   max-width: 65ch; /* mesma largura do main-content */
