@@ -241,7 +241,7 @@ a svg:hover {
   height: 100%;
   transform: translateY(100%);
 
-  background: hsl(0deg 0% 100% / 0.1);
+  background: hsla(60, 83%, 16%, 0.385);
   mask-image: linear-gradient(
     to bottom,
     black 0,
