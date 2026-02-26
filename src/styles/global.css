@@ -225,7 +225,7 @@ a svg:hover {
   position: absolute;
   backdrop-filter: blur(16px);
   /* Once the elements go outside the viewport, backdrop-filter cannot get information about the colors of the element, so it generates a "flickering" effect when things are about to go outside the viewport. To fix that, we simply add a linear-gradient background with the same color of our page background, making elements opaque as soon as they approach the top of the viewport */
-  background: linear-gradient(to bottom, hsl(0deg 0% 20%) 0%, transparent 50%);
+  background: hsl(0deg 0% 100% / 0.1);
   mask-image: linear-gradient(to bottom, black 0% 50%, transparent 50% 100%);
   pointer-events: none;
 }
@@ -248,7 +248,7 @@ a svg:hover {
     black var(--thickness),
     transparent var(--thickness)
   );
-  backdrop-filter: blur(var(--blur)) brightness(120%);
+  backdrop-filter: blur(16px) brightness(0.8);
 
   pointer-events: none;
 }
