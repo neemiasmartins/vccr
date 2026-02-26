@@ -538,3 +538,69 @@ a svg:hover {
   color: #999;
   margin-left: 4px;
 }
+
+
+/* clientes logos grid */
+
+.client-logos {
+  display: flex; /* grid*/
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  align-items: center;
+  justify-items: center;
+  padding: 2rem;
+  
+}
+
+.client-logos .logo img {
+  max-width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.client-logos .logo img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+/* Apenas para deixar a linha centralizada e fina */
+hr {
+  
+  border: none;           /* remove estilo padrão */
+  height: 1px;            /* espessura da linha */
+  background-color: #999; /* cor da linha */
+  width: 100%;            /* ocupa toda a largura do body */
+  margin: 3rem 0 2rem 0;  /* espaço acima e abaixo */
+}
+
+h1 {
+  font-family: "Hanken Grotesk", sans-serif;
+  text-align: left;      /* centraliza o texto */
+  font-size: 2rem;         /* tamanho do título */
+  line-height: 1.3;        /* altura da linha */
+  margin: 1rem 0 1.5rem 0; /* espaço acima e abaixo */
+  word-wrap: break-word;   /* permite quebra de palavras se necessário */
+}
+
+h2 {
+  font-family: "Hanken Grotesk", sans-serif;
+  text-align: center;      /* centraliza o texto */
+  font-size: 1.5rem;         /* tamanho do título */
+  line-height: 1;        /* altura da linha */
+  margin: 1rem 0 1.5rem 0; /* espaço acima e abaixo */
+  word-wrap: break-word;   /* permite quebra de palavras se necessário */
+}
+
+h3 {
+  font-family: "Hanken Grotesk", sans-serif;
+  text-align: left;      /* centraliza o texto */
+  font-size: 1.5rem;         /* tamanho do título */
+  line-height: 1;        /* altura da linha */
+  margin: 1rem 0 1.5rem 0; /* espaço acima e abaixo */
+  word-wrap: break-word;   /* permite quebra de palavras se necessário */
+}
+
+html {
+  scroll-behavior: smooth;
+}
