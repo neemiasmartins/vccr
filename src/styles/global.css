@@ -20,7 +20,7 @@
 	 padding: 20px;
 	 max-width: 80ch;
 	 text-align: left;
-	 background-color: #FFFAF0;
+	 background-color: #FFFAF0; /*#FFFAF0*/
 	 word-wrap: break-word;
 	 overflow-wrap: break-word;
 	 line-height: 1.5;
@@ -152,14 +152,16 @@
 }
 
 .site-header .links a {
-  color: #f0f0f0; /* links claros */
+  font: 18px "Hanken Grotesk", sans-serif;
+  color: #151515; 
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
 }
 
 .site-header .links a:hover {
-  color: #ffd700; /* destaque ao passar o mouse */
+  text-decoration:underline;
+  text-decoration-color: #151515;
 }
 
 /* Margem geral do header */
@@ -464,19 +466,75 @@ a svg:hover {
   bottom: -0.5em;
 }
 
-/* tentativa card de recurso*/
-.resources blockquote {
-
-  margin: 10px auto 0;   /* centraliza horizontalmente */
-  max-width: 250px;       /* largura máxima do card */
-  background: #fffbf0; /*#f7e198;*/
-  padding: 20px 60px;
+/* tentativa card de servicos*/
+.services blockquote {
+  margin: 10px auto 0;
+  max-width: 250px;
+  background: #fffbf0;
+  padding: 20px 30px;
   position: relative;
   border: 1px solid #d1d2c8;
   border-radius: 8px;
-  font-style: italic;
-  font-size:14px;
   display: inline-block; 
-  margin: 10px;   
+  font: 18px "Hanken Grotesk", sans-serif;
+}
 
+.service-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+
+.service-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.service-list .icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  stroke-width: 2;
+}
+
+/* ✅ Ativo */
+.service-list li.active .icon {
+  fill: #e7c30f;
+}
+
+/* ❌ Inativo */
+.service-list li.inactive {
+  color: #999;
+}
+
+.service-list li.inactive .icon {
+  stroke: #999c;
+  fill: none;
+}
+
+.price {
+  margin: 15px 0 20px 0;
+  text-align: center;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.price .currency {
+  font-size: 18px;
+  vertical-align: top;
+  margin-right: 2px;
+}
+
+.price .value {
+  font-size: 30px;
+  font-weight: 700;
+  color: #e7c30f;
+}
+
+.price .period {
+  font-size: 16px;
+  color: #999;
+  margin-left: 4px;
 }
