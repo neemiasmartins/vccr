@@ -11,14 +11,17 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
  
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+ 
+
  
  body {
-	 font-family: "Hanken+Grotesk", sans-serif;
+	 font-family: "Inter", sans-serif;
 	 font-optical-sizing: auto;
 	 font-size: 20px;
 	 margin: auto;
 	 padding: 20px;
-	 max-width: 80ch;
+	 max-width: 90ch;
 	 text-align: left;
 	 background-color: #FFFAF0; /*#FFFAF0*/
 	 word-wrap: break-word;
@@ -152,7 +155,7 @@
 }
 
 .site-header .links a {
-  font: 18px "Hanken Grotesk", sans-serif;
+  font: 18px "Inter", sans-serif;
   color: #151515; 
   text-decoration: none;
   font-weight: 500;
@@ -197,7 +200,7 @@ body {
 
 /* Mantém o conteúdo do header centralizado */
 .site-header .header-inner {
-  max-width: 80ch; /* mesma largura do main-content */
+  max-width: 90ch; /* mesma largura do main-content */
   margin: 0 auto;
   width: 100%;
   display: flex;
@@ -414,21 +417,21 @@ a svg:hover {
 
 /* cards de clientes */
 
-/* Container que organiza os cards lado a lado */
+
 
 
 
 .testimonial blockquote {
 
   margin: 10px auto 0;   /* centraliza horizontalmente */
-  max-width: 250px;       /* largura máxima do card */
-  background: #fffbf0; /*#f7e198;*/
+  max-width: 320px;       /* largura máxima do card */
+  background: #fffbf0; /*#f7e198; #fffbf0; */
   padding: 20px 60px;
   position: relative;
   border: 1px solid #d1d2c8;
   border-radius: 8px;
   font-style: italic;
-  font-size:14px;
+  font-size:16px;
   display: inline-block; 
   margin: 10px;   
 
@@ -458,7 +461,7 @@ a svg:hover {
 /* tentativa card de servicos*/
 .services blockquote {
   margin: 10px auto 0;
-  max-width: 250px;
+  max-width: 320px;
   background: #fffbf0;
   padding: 20px 30px;
   position: relative;
@@ -466,7 +469,7 @@ a svg:hover {
   border-radius: 8px;
   display: inline-block; 
   margin: 10px;  
-  font: 18px "Hanken Grotesk", sans-serif;
+  font: 18px "Inter", sans-serif;
 }
 
 .service-list {
@@ -508,7 +511,7 @@ a svg:hover {
 .price {
   margin: 15px 0 20px 0;
   text-align: center;
-  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .price .currency {
@@ -555,35 +558,35 @@ a svg:hover {
 }
 
 /* Apenas para deixar a linha centralizada e fina */
-hr {
+ hr {
   
   border: none;           /* remove estilo padrão */
-  height: 1px;            /* espessura da linha */
+  height: 0px;            /* espessura da linha */
   background-color: #999; /* cor da linha */
   width: 100%;            /* ocupa toda a largura do body */
   margin: 3rem 0 2rem 0;  /* espaço acima e abaixo */
-}
+} 
+
 
 h1 {
-  font-family: "Hanken Grotesk", sans-serif;
-  text-align: left;      /* centraliza o texto */
-  font-size: 2rem;         /* tamanho do título */
-  line-height: 1.3;        /* altura da linha */
-  margin: 1rem 0 1.5rem 0; /* espaço acima e abaixo */
-  word-wrap: break-word;   /* permite quebra de palavras se necessário */
+  font-family: "Inter", sans-serif;
+  text-align: center;      /* centraliza o texto */
+  font-size: 1.2rem;         /* tamanho do título */
+  line-height: 1;        /* altura da linha */
 }
 
+
 h2 {
-  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Inter", sans-serif;
   text-align: center;      /* centraliza o texto */
-  font-size: 1.5rem;         /* tamanho do título */
+  font-size: 2.5rem;         /* tamanho do título */
   line-height: 1;        /* altura da linha */
   margin: 1rem 0 1.5rem 0; /* espaço acima e abaixo */
   word-wrap: break-word;   /* permite quebra de palavras se necessário */
 }
 
 h3 {
-  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Inter", sans-serif;
   text-align: left;      /* centraliza o texto */
   font-size: 1.5rem;         /* tamanho do título */
   line-height: 1;        /* altura da linha */
@@ -593,4 +596,25 @@ h3 {
 
 html {
   scroll-behavior: smooth;
+}
+
+
+
+/* nao usado por enquanto:*/
+
+/* Espaço acima e abaixo da seção */
+.section-wrapper {
+  padding: 6rem 1.5rem; /* respiro vertical */
+}
+
+/* Bloco com fundo claro e borda arredondada */
+.section-card {
+  background: #000000; /* off-white estilo Apple */
+  border-radius: 32px;
+  padding: 4rem 3rem;
+
+  max-width: 1100px;
+  margin: 0 auto;
+
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
 }
