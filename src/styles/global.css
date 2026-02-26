@@ -18,7 +18,7 @@
 	 font-size: 20px;
 	 margin: auto;
 	 padding: 20px;
-	 max-width: 65ch;
+	 max-width: 80ch;
 	 text-align: left;
 	 background-color: #FFFAF0;
 	 word-wrap: break-word;
@@ -195,7 +195,7 @@ body {
 
 /* Mantém o conteúdo do header centralizado */
 .site-header .header-inner {
-  max-width: 65ch; /* mesma largura do main-content */
+  max-width: 80ch; /* mesma largura do main-content */
   margin: 0 auto;
   width: 100%;
   display: flex;
@@ -423,3 +423,44 @@ a svg:hover {
 }
 
 /* cards de clientes */
+
+/* Container que organiza os cards lado a lado */
+
+
+.testimonial blockquote {
+
+  margin: 10px auto 0;   /* centraliza horizontalmente */
+  max-width: 250px;       /* largura máxima do card */
+  background: #efefef;
+  padding: 20px 60px;
+  position: relative;
+  border: none;
+  border-radius: 8px;
+  font-style: italic;
+  font-size:14px;
+  display: inline-block; 
+  margin: 10px;   
+
+}
+
+.testimonial blockquote:before,
+.testimonial blockquote:after {
+  content: "\201C";
+  position: absolute;
+  font-size: 80px;
+  line-height: 1;
+  color: #757f9a;
+  font-style: normal;
+}
+
+.testimonial blockquote:before {
+  top: 0;
+  left: 10px;
+}
+
+.testimonial blockquote:after {
+  content: "\201D";
+  right: 10px;
+  bottom: -0.5em;
+}
+
