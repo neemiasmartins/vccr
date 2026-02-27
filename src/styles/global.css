@@ -663,3 +663,19 @@ html {
     gap: 15px;              /* espaço entre elementos */
   }
 }
+
+.sobre{
+  width: 100%;  
+  background: #ffffff;
+  color: #000000;             
+  min-height: 80px;        
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+  border-radius: 8px;   
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); 
+  gap: 30px;              
+  box-sizing: border-box;
+}
