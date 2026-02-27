@@ -11,8 +11,7 @@ export interface Props {
 
 const { title, description, image } = Astro.props;
 ---
-<!-- Teste para google nao traduzir automaticamente-->
-<meta name="google" content="notranslate">
+
 
 
 
@@ -41,6 +40,14 @@ const { title, description, image } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "vo4sg2ic9u");
+</script>
 
 
 
