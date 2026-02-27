@@ -337,7 +337,7 @@ a svg:hover {
  
  .profile_pic {
 	 float:left;
-	 width:10rem;
+	 width:11rem;
 	 border-radius: 10px;
 	 margin:0em 1em .7em .7em;
 	 }
@@ -664,3 +664,16 @@ html {
   }
 }
 
+.sobre h2 {
+  color: #000000;
+  
+}
+
+.sobre { 
+  background:#ffffff;
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+  border-radius: 8px;   
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); 
+  gap: 30px;
+}
