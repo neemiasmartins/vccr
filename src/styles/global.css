@@ -650,3 +650,14 @@ html {
   width: 200px;      /* largura desejada */
   height: auto;      /* mantém proporção */
 }
+
+/* MOBILE: seção "sobre" */
+@media (max-width: 768px) {
+  .sobre {
+    display: flex;
+    flex-direction: column; /* empilha imagem e texto verticalmente */
+    align-items: center;    /* centraliza conteúdo horizontalmente */
+    text-align: center;     /* centraliza o texto */
+    gap: 15px;              /* espaço entre elementos */
+  }
+}
