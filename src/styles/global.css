@@ -633,3 +633,20 @@ html {
 }
 
 
+/* Centraliza o texto */
+.text-hero-center {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #000000; /* ajuste se necessário */
+  margin-top: 10px; /* espaçamento da imagem */
+}
+
+/* Imagem hero com tamanho fixo e centralizada */
+.hero-img {
+  display: block;    /* essencial para centralizar */
+  margin: 0 auto;    /* centraliza horizontalmente */
+  width: 200px;      /* largura desejada */
+  height: auto;      /* mantém proporção */
+}
