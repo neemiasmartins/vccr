@@ -5,12 +5,13 @@ const today = new Date();
 <footer class="footer">
   <section class="sobre">
     <h2>Sobre mim</h2>
-    <p class="text-hero">
-      Eu sou <span class="destaque">Sarah Vaccari</span> 💛
-    </p>
     <img src="https://instagram.fplu21-1.fna.fbcdn.net/v/t51.82787-15/622280760_18056897537694217_385655465135426191_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzQyNTE5NjQwMTI3OTkyODkxMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4NzIxLnNkci5DMyJ9&_nc_ohc=O9lXju1IfB4Q7kNvwEFLuAE&_nc_oc=Adl7aThvjmAkBBODr0rwaKgdCFP0xRaZDHxEyzKvin3knLxcquzXFjzQNcd1NB1cw4z-ruq1tA_N_a2eD71FyHtE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fplu21-1.fna&_nc_gid=BsjMo2xS7LvNQ4eWQDY_Ew&oh=00_Afu22BWUzl01hpeh1lFe7s-Cmva2HrLKU96mGJ6RBJbt4A&oe=69A6BAA8" 
          class="profile_pic" 
          alt="Sarah Vaccari" />
+    <p class="text-hero">
+      Eu sou <span class="destaque">Sarah Vaccari</span> 💛
+    </p>
+    
     <p class="text-hero">
       Com trajetória construída em vendas e formação em Engenharia Mecânica, desenvolvi uma visão estratégica e analítica para estruturar empresas.
     </p>
@@ -45,7 +46,7 @@ const today = new Date();
 /* Footer */
 .footer {
   width: 100%;  
-  background-color: #fdfdd6;  
+  
   color: #000000;             
   min-height: 80px;        
   display: flex;
@@ -70,10 +71,9 @@ const today = new Date();
 
 /* Imagem de perfil grande */
 .profile_pic {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;       /* evita distorção */
-  display: block;
-  margin: 20px 0;
-}
+	 float:left;
+	 width:18rem;
+	 border-radius: 10px;
+	 margin:0em 1em .7em .7em;
+	 }
 </style>

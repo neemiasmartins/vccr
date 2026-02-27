@@ -336,10 +336,10 @@ a svg:hover {
  
  
  .profile_pic {
-	 float:right;
-	 width:12rem;
+	 float:left;
+	 width:10rem;
 	 border-radius: 10px;
-	 margin:0em 0em .7em .7em;
+	 margin:0em 1em .7em .7em;
 	 }
  
 
