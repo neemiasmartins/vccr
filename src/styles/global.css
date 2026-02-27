@@ -23,7 +23,7 @@
 	 padding: 20px;
 	 max-width: 90ch;
 	 text-align: left;
-	 background-color: #FFFAF0; /*#FFFAF0*/
+	 background-color: #f4f4f4; /*#FFFAF0*/
 	 word-wrap: break-word;
 	 overflow-wrap: break-word;
 	 line-height: 1.5;
@@ -425,11 +425,12 @@ a svg:hover {
 
   margin: 10px auto 0;   /* centraliza horizontalmente */
   max-width: 320px;       /* largura máxima do card */
-  background: #fffbf0; /*#f7e198; #fffbf0; */
+  background: #ffffff; /*#f7e198; #fffbf0; */
   padding: 20px 60px;
   position: relative;
-  border: 1px solid #d1d2c8;
+  border: none;
   border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   font-style: italic;
   font-size:16px;
   display: inline-block; 
@@ -462,10 +463,11 @@ a svg:hover {
 .services blockquote {
   margin: 10px auto 0;
   max-width: 320px;
-  background: #fffbf0;
+  background: #ffffff;
   padding: 20px 30px;
   position: relative;
-  border: 1px solid #d1d2c8;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   display: inline-block; 
   margin: 10px;  
