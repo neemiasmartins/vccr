@@ -360,7 +360,8 @@ a svg:hover {
   cursor: pointer;
   z-index: 1;
   padding: 10px 20px;
-  display: flex;
+  display: block;
+  margin: 20px auto 0; /* display era flex - ultimas duas linhas centralizam botao*/
   align-items: center;
   justify-content: center;
   white-space: nowrap;
@@ -534,6 +535,9 @@ a svg:hover {
   margin-left: 4px;
 }
 
+.services h3{
+  text-align: center;
+}
 
 /* clientes logos grid */
 
