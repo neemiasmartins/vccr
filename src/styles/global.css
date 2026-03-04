@@ -680,8 +680,12 @@ html {
   border-radius: 8px;   
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); 
   gap: 30px;
+  
+}
+.services{
   justify-content: center; /* centraliza horizontalmente */
 }
-.testimonial{
+
+.testimonials{
   justify-content: center; /* centraliza horizontalmente */
 }
